@@ -20,6 +20,6 @@ Enter your city and check if you need to take umbrella with you! ☂️ ☂️ �
 
 Link to the site :)
 
-https://halsik.github.io/WhetherApp/
+https://halsik.github.io/WeatherApp/
 
 Inspired by Jonah Lawrence tutorial however I challenge myself to do it alone.
