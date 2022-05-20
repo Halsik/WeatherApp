@@ -26,7 +26,7 @@ let weather = {
         document.querySelector(".wind").innerHTML = "Wind speed: " + speed + " km/h"
         document.querySelector(".temp").innerHTML = temp + "°C"
         document.querySelector(".weather").classList.remove("loading")
-        
+        document.body.style.backgroundImage = "url('https://source.unsplash.com/1600x900/?landscape')"
         
     },
     search: function() {
