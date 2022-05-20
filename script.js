@@ -26,7 +26,7 @@ let weather = {
         document.querySelector(".wind").innerHTML = "Wind speed: " + speed + " km/h"
         document.querySelector(".temp").innerHTML = temp + "°C"
         document.querySelector(".weather").classList.remove("loading")
-        document.body.style.backgroundImage = "url('https://source.unsplash.com/1600x900/?landscape')"
+        document.body.style.backgroundImage = "url('https://source.unsplash.com/1600x900/?" + name + "')"
         
     },
     search: function() {
@@ -34,7 +34,7 @@ let weather = {
     }
 }
 
-weather.fetchWeather("Kwidzyn");
+weather.fetchWeather("Gdańsk");
 
 search.addEventListener("click", function() {
     weather.search();
